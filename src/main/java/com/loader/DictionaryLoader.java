@@ -1,4 +1,4 @@
-package com.loader;
+﻿package com.loader;
 
 import com.model.Word;
 import com.model.WordRepository;
@@ -78,10 +78,10 @@ public class DictionaryLoader {
 
     private void loadFromDatabaseIntoTrie() {
         long start = System.currentTimeMillis();
-        List<Word> words = wordRepository.findAll();
+        List<String> words = wordRepository.findAllWordTexts();
 
-        for (Word word : words) {
-            trie.insert(word.getText());
+        for (String word : words) {
+            trie.insert(word);
         }
 
         long seconds = (System.currentTimeMillis() - start) / 1000;
