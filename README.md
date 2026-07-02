@@ -10,6 +10,10 @@ A real-time autocomplete and typo-tolerant search engine built with Spring Boot,
 </p>
 
 Live demo: 10 suggestions returned in under 15ms, searched against a 370,105-word dictionary.
+🔗 **Try it live:** https://search-suggestion-service.onrender.com/
+
+*(Hosted on Render's free tier — first request after inactivity may take 30-60s to wake up)*
+
 
 ## Features
 
