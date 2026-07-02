@@ -1,4 +1,4 @@
-﻿package com.loader;
+package com.loader;
 
 import com.model.Word;
 import com.model.WordRepository;
